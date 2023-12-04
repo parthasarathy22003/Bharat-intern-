@@ -1,0 +1,66 @@
+*{
+    background: #757474;
+}
+.skcontainer{
+    display: flex;
+    
+    justify-content: center;
+  
+}
+.width-50{
+    width: 100%;
+    
+}
+.skill  {
+    margin-top: 40px;
+    font-size: 17px;
+}
+
+.skill span {
+    float: right;
+}
+
+.progressbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.sep_bar{
+    display: flex;
+    flex-direction: column;
+}
+
+.skill div {
+    width:100% ;
+    float: left;
+    margin-top: 10px;
+    background: #f7f0f4;
+    border-radius: 10px;
+}
+
+.skill div span {
+    background: #db1371;
+    height: 5px;
+    float: left;
+}
+
+div[role="progressbar"] {
+    color: #e7cce7;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    width: 100px;
+    ;
+    height:120px;
+    ;
+    border-radius: 50%;
+    
+    place-items: center;
+    display: grid;
+
+    --pgPercentage: var(--value);
+    background: radial-gradient(closest-side, rgb(92, 81, 81) 80%, transparent 0 99.9%, rgb(236, 69, 69)0),
+         conic-gradient(#f3129d calc(var(--pgPercentage) * 1%),#ffe6af 0);
+
+}

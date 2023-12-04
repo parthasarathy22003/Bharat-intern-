@@ -1,0 +1,45 @@
+/******ABOUT US SECTION******/
+.main-section {
+    width: 80%;
+    float: left;
+    padding: 110px 0px 110px 0px;
+}
+.width-100 {
+    width: 100%;
+    float: left;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.heading-text {
+    width: 100%;
+    float: left;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #4335ff;
+}.about-img {
+    width: 100%;
+    padding: 0px 50px;
+    margin-top: 150px;
+}
+.about-us {
+    width: 100%;
+    float: left;
+    padding: 20px;
+    margin-top: 80px;
+}
+.about-us p {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 27px;
+}
+table {
+    width: 80%;
+}
+table th,
+table td {
+    font-size: 18px;
+    text-align: left;
+    padding: 5px 0px;
+}
